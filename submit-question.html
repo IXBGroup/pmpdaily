@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Submit a Question | PMP Daily</title>
+    <meta
+      name="description"
+      content="Submit a PMP-style question idea for future PMP Daily posts."
+    />
+    <link rel="canonical" href="https://pmpdaily.org/submit-question.html" />
+    <meta property="og:title" content="Submit a Question | PMP Daily" />
+    <meta property="og:description" content="Submit a PMP-style question idea for future PMP Daily posts." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://pmpdaily.org/submit-question.html" />
+    <meta property="og:image" content="https://pmpdaily.org/assets/pmp-daily-hero.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="PMP Daily home">
+        <img class="brand-logo" src="assets/pmp-daily-logo-web.svg" alt="PMP Daily logo" />
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="index.html#practice">Practice</a>
+        <a href="answers.html">Answers</a>
+        <a href="index.html#resources">Resources</a>
+        <a href="index.html#community">Community</a>
+        <a href="index.html#jobs">Jobs</a>
+        <a href="submit-question.html">Submit Question</a>
+        <a href="https://pmpdaily.store" target="_blank" rel="noopener">Store</a>
+        <a class="nav-cta" href="https://www.linkedin.com/company/pmp-daily" target="_blank" rel="noopener">Follow on LinkedIn</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="submission-page">
+        <div class="submission-intro">
+          <p class="eyebrow">Member question submissions</p>
+          <h1>Submit a PMP-style question.</h1>
+          <p>
+            Share a scenario, answer choices, and explanation that could help other project managers sharpen their exam
+            thinking. Selected submissions may be adapted for future PMP Daily posts.
+          </p>
+        </div>
+
+        <form class="question-form">
+          <div class="form-grid">
+            <label>
+              Your name
+              <input type="text" name="name" placeholder="Full name" required />
+            </label>
+            <label>
+              Email address
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </label>
+          </div>
+
+          <label>
+            LinkedIn profile or company
+            <input type="url" name="linkedin" placeholder="https://www.linkedin.com/in/your-profile" />
+          </label>
+
+          <label>
+            PMP topic area
+            <select name="topic" required>
+              <option value="">Choose a topic</option>
+              <option>Agile and hybrid delivery</option>
+              <option>Risk management</option>
+              <option>Scope and change control</option>
+              <option>Stakeholder engagement</option>
+              <option>Team leadership</option>
+              <option>Schedule, cost, or quality</option>
+              <option>Other PMP exam topic</option>
+            </select>
+          </label>
+
+          <label>
+            Question scenario
+            <textarea name="question" rows="6" placeholder="Write the PMP-style scenario or question here." required></textarea>
+          </label>
+
+          <div class="form-grid">
+            <label>
+              Option A
+              <input type="text" name="option-a" placeholder="Answer choice A" required />
+            </label>
+            <label>
+              Option B
+              <input type="text" name="option-b" placeholder="Answer choice B" required />
+            </label>
+            <label>
+              Option C
+              <input type="text" name="option-c" placeholder="Answer choice C" required />
+            </label>
+            <label>
+              Option D
+              <input type="text" name="option-d" placeholder="Answer choice D" required />
+            </label>
+          </div>
+
+          <label>
+            Correct answer and explanation
+            <textarea
+              name="explanation"
+              rows="5"
+              placeholder="Tell us the best answer and why it is better than the distractors."
+              required
+            ></textarea>
+          </label>
+
+          <label>
+            Permission to credit you
+            <select name="credit" required>
+              <option value="">Choose one</option>
+              <option>Yes, credit my name</option>
+              <option>Yes, credit my LinkedIn profile</option>
+              <option>No, keep my submission anonymous</option>
+            </select>
+          </label>
+
+          <label class="checkbox-label">
+            <input type="checkbox" name="submission-rights" required />
+            <span>
+              I confirm this is my original submission and give PMP Daily permission to edit, adapt, publish, and reuse
+              it in future posts, answer explanations, emails, and study resources.
+            </span>
+          </label>
+
+          <p class="form-note">
+            Form connection coming soon. This page is ready to connect to a submission service before launch.
+          </p>
+          <button class="button primary" type="button">Submit question soon</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-brand">
+        <img class="footer-logo" src="assets/pmp-daily-logo-web.svg" alt="PMP Daily logo" />
+        <div>
+          <p>&copy; 2026 PMP Daily. Daily PMP exam questions for project managers.</p>
+          <p class="trademark-note">
+            PMP is a registered mark of Project Management Institute, Inc. PMP Daily is not affiliated with PMI.
+          </p>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="mailto:contact@pmpdaily.org">contact@pmpdaily.org</a>
+      </div>
+    </footer>
+  </body>
+</html>
