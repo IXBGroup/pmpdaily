@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">PMP Daily study desk</title>
+  <desc id="desc">A clean project management study desk with laptop, notebook, and quiz interface.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f8fcfd"/>
+      <stop offset="0.55" stop-color="#eef7fb"/>
+      <stop offset="1" stop-color="#d9edf5"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" x2="1">
+      <stop offset="0" stop-color="#f7fbfd"/>
+      <stop offset="1" stop-color="#e8f3f8"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="28" stdDeviation="28" flood-color="#003e58" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <circle cx="1320" cy="130" r="260" fill="#fff" opacity="0.5"/>
+  <rect x="770" y="240" width="570" height="365" rx="28" fill="#243746" filter="url(#shadow)"/>
+  <rect x="800" y="270" width="510" height="305" rx="12" fill="url(#screen)"/>
+  <rect x="830" y="302" width="150" height="240" rx="10" fill="#ffffff"/>
+  <rect x="1010" y="318" width="250" height="12" rx="6" fill="#13a8e8"/>
+  <rect x="1010" y="360" width="230" height="8" rx="4" fill="#d0dde4"/>
+  <rect x="1010" y="395" width="250" height="8" rx="4" fill="#d0dde4"/>
+  <g fill="none" stroke="#9fb5c0" stroke-width="4">
+    <circle cx="1025" cy="452" r="11"/>
+    <circle cx="1025" cy="492" r="11"/>
+    <circle cx="1025" cy="532" r="11"/>
+  </g>
+  <rect x="1052" y="442" width="225" height="22" rx="8" fill="#eef6fa"/>
+  <rect x="1052" y="482" width="180" height="22" rx="8" fill="#dbeef7"/>
+  <rect x="1052" y="522" width="210" height="22" rx="8" fill="#eef6fa"/>
+  <path d="M710 635h700l70 62H635z" fill="#d8e5eb"/>
+  <path d="M635 697h845c-20 46-76 70-168 70H800c-90 0-145-24-165-70z" fill="#c5d7df"/>
+  <rect x="1040" y="700" width="150" height="14" rx="7" fill="#aebfc8"/>
+  <rect x="930" y="700" width="92" height="14" rx="7" fill="#b8c9d1"/>
+  <rect x="104" y="650" width="560" height="210" rx="22" fill="#fff" filter="url(#shadow)"/>
+  <rect x="148" y="700" width="230" height="14" rx="7" fill="#003e58"/>
+  <rect x="148" y="738" width="430" height="12" rx="6" fill="#d9e3e7"/>
+  <rect x="148" y="772" width="360" height="12" rx="6" fill="#d9e3e7"/>
+  <g stroke="#13a8e8" stroke-width="10" fill="none" stroke-linecap="round">
+    <path d="M480 706h80v60h-80z"/>
+    <path d="M520 766v44"/>
+    <path d="M470 810h100"/>
+  </g>
+  <rect x="1190" y="675" width="230" height="210" rx="28" fill="#003e58" opacity="0.88" filter="url(#shadow)"/>
+  <path d="M1240 730h105M1240 770h125M1240 810h95" stroke="#fff" stroke-width="10" stroke-linecap="round" opacity="0.84"/>
+  <path d="M1190 675l230 210" stroke="#13a8e8" stroke-width="14" opacity="0.42"/>
+  <rect x="585" y="760" width="260" height="22" rx="11" fill="#20384a" transform="rotate(-13 585 760)"/>
+  <rect x="815" y="708" width="70" height="22" rx="11" fill="#13a8e8" transform="rotate(-13 815 708)"/>
+  <rect x="70" y="0" width="560" height="1000" fill="#fff" opacity="0.5"/>
+</svg>
