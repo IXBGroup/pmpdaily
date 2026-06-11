@@ -254,7 +254,7 @@ h3 {
 .sample-card,
 .explain-card,
 .resource-grid article,
-.stats div {
+stats div {
   background: var(--white);
   border: 1px solid rgba(217, 227, 231, 0.92);
   border-radius: 8px;
@@ -748,6 +748,25 @@ h3 {
   flex-wrap: wrap;
   gap: 14px;
   justify-content: flex-end;
+}
+
+.visitor-counter {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  color: var(--muted);
+  background: var(--soft);
+  border: 1px solid #cbe8f2;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.visitor-counter img {
+  display: block;
+  width: auto;
+  height: 20px;
 }
 
 @media (max-width: 920px) {
