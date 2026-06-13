@@ -1,5 +1,5 @@
 const FORM_ENDPOINT = "";
-const EXAM_MINUTES = 45;
+const EXAM_MINUTES = 38;
 
 const state = {
   questions: [],
