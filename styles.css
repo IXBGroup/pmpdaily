@@ -224,6 +224,7 @@ h3 {
 .answers-section,
 .linkedin-preview,
 .submit-cta,
+.simulator-cta,
 .question-band {
   padding: 86px clamp(20px, 5vw, 72px);
 }
@@ -526,6 +527,38 @@ h3 {
     var(--white);
 }
 
+.simulator-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  color: var(--white);
+  background:
+    linear-gradient(135deg, rgba(0, 62, 88, 0.94), rgba(0, 125, 157, 0.9)),
+    var(--navy);
+}
+
+.simulator-cta div {
+  max-width: 820px;
+}
+
+.simulator-cta .eyebrow,
+.simulator-cta p {
+  color: #d8f0ef;
+}
+
+.simulator-cta p {
+  margin-bottom: 0;
+  font-size: 1.08rem;
+}
+
+.simulator-cta .button.primary {
+  flex: 0 0 auto;
+  color: var(--navy);
+  background: var(--white);
+  box-shadow: none;
+}
+
 .submit-cta div {
   max-width: 760px;
 }
@@ -819,6 +852,11 @@ h3 {
     flex-direction: column;
   }
 
+  .simulator-cta {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
   .submission-intro {
     position: static;
   }
@@ -855,6 +893,7 @@ h3 {
   .answers-section,
   .linkedin-preview,
   .submit-cta,
+  .simulator-cta,
   .question-band {
     padding-top: 58px;
     padding-bottom: 58px;
