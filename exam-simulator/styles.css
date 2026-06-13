@@ -302,8 +302,8 @@ h2 {
 
 .exam-layout {
   display: grid;
-  grid-template-columns: 280px minmax(0, 1fr);
-  gap: 22px;
+  grid-template-columns: 1fr;
+  gap: 16px;
   align-items: start;
 }
 
@@ -313,8 +313,8 @@ h2 {
 }
 
 .question-map {
-  position: sticky;
-  top: 108px;
+  padding: 16px;
+  box-shadow: none;
 }
 
 .map-header {
@@ -333,16 +333,19 @@ h2 {
 
 .question-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 8px;
+  grid-template-columns: repeat(auto-fill, 34px);
+  gap: 6px;
+  justify-content: start;
 }
 
 .map-button {
-  min-height: 42px;
+  min-height: 32px;
+  padding: 4px 6px;
   color: var(--ink);
   background: var(--paper);
   border: 1px solid var(--line);
-  border-radius: 8px;
+  border-radius: 6px;
+  font-size: 0.82rem;
   font-weight: 900;
 }
 
@@ -363,9 +366,10 @@ h2 {
 }
 
 .legend {
-  display: grid;
-  gap: 8px;
-  margin-top: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 14px;
+  margin-top: 12px;
   color: var(--muted);
   font-size: 0.9rem;
   font-weight: 750;
@@ -672,13 +676,6 @@ h2 {
     grid-template-columns: 1fr;
   }
 
-  .question-map {
-    position: static;
-  }
-
-  .question-grid {
-    grid-template-columns: repeat(10, minmax(0, 1fr));
-  }
 }
 
 @media (max-width: 640px) {
@@ -686,8 +683,7 @@ h2 {
     font-size: 3rem;
   }
 
-  .exam-facts,
-  .question-grid {
+  .exam-facts {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 

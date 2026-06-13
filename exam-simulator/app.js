@@ -70,8 +70,8 @@ async function init() {
 function bindEvents() {
   els.leadForm.addEventListener("submit", startExam);
   els.flagButton.addEventListener("click", toggleFlag);
-  els.prevButton.addEventListener("click", () => goToQuestion(state.currentIndex - 1));
-  els.nextButton.addEventListener("click", () => goToQuestion(state.currentIndex + 1));
+  els.prevButton.addEventListener("click", () => goToQuestion(state.currentIndex - 1, false));
+  els.nextButton.addEventListener("click", () => goToQuestion(state.currentIndex + 1, false));
   els.submitButton.addEventListener("click", confirmSubmit);
   els.reviewButton.addEventListener("click", showReview);
   els.restartButton.addEventListener("click", restartExam);
@@ -188,13 +188,15 @@ function toggleFlag() {
   renderQuestion();
 }
 
-function goToQuestion(index) {
+function goToQuestion(index, focusQuestion = true) {
   if (index < 0 || index >= state.questions.length) return;
   state.submitPending = false;
   els.submitStatus.textContent = "";
   state.currentIndex = index;
   renderQuestion();
-  window.scrollTo({ top: 0, behavior: "smooth" });
+  if (focusQuestion) {
+    document.querySelector(".question-panel").scrollIntoView({ behavior: "smooth", block: "start" });
+  }
 }
 
 function renderQuestionMap() {
