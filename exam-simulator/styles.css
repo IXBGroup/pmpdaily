@@ -496,6 +496,20 @@ h2 {
   gap: 12px;
 }
 
+.exam-actions {
+  justify-content: space-between;
+}
+
+.step-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+#submit-button {
+  margin-left: auto;
+}
+
 .submit-status,
 .submit-warning {
   color: var(--danger);
