@@ -488,7 +488,6 @@ h2 {
   border-color: var(--navy);
 }
 
-.exam-actions,
 .result-actions {
   display: flex;
   align-items: center;
@@ -497,7 +496,11 @@ h2 {
 }
 
 .exam-actions {
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: auto minmax(24px, 1fr) auto;
+  gap: 12px;
+  align-items: center;
+  width: 100%;
 }
 
 .step-actions {
@@ -507,7 +510,8 @@ h2 {
 }
 
 #submit-button {
-  margin-left: auto;
+  grid-column: 3;
+  justify-self: end;
 }
 
 .submit-status,
@@ -707,6 +711,19 @@ h2 {
   .review-screen {
     padding-top: 30px;
     padding-bottom: 38px;
+  }
+
+  .exam-actions {
+    grid-template-columns: 1fr;
+  }
+
+  .step-actions {
+    grid-column: 1;
+  }
+
+  #submit-button {
+    grid-column: 1;
+    justify-self: end;
   }
 
   .timer {
