@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PMP Daily | 30-Question PMP Exam Simulator</title>
+    <meta
+      name="description"
+      content="Take a free 30-question PMP exam simulation from PMP Daily with timer, score, and answer explanations."
+    />
+    <link rel="canonical" href="https://pmpdaily.org/exam-simulator/" />
+    <meta property="og:title" content="PMP Daily | 30-Question PMP Exam Simulator" />
+    <meta
+      property="og:description"
+      content="Start a free timed PMP-style mini exam and review your explanations at the end."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://pmpdaily.org/exam-simulator/" />
+    <meta property="og:image" content="https://pmpdaily.org/assets/pmp-daily-hero.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="sim-header">
+      <a class="brand" href="../" aria-label="PMP Daily home">
+        <img class="brand-logo" src="../assets/pmp-daily-logo-cropped.png" alt="PMP Daily logo" />
+      </a>
+      <nav class="sim-nav" aria-label="Simulator navigation">
+        <a href="../">PMP Daily</a>
+        <a href="../submit-question.html">Submit Question</a>
+        <a href="mailto:contact@pmpdaily.org">Contact</a>
+      </nav>
+    </header>
+
+    <main id="app" class="sim-shell">
+      <section id="lead-screen" class="lead-screen">
+        <div class="lead-copy">
+          <p class="eyebrow">Free PMP Daily simulator</p>
+          <h1>Take a realistic 30-question PMP mini exam.</h1>
+          <p>
+            Practice in a timed test environment, flag questions for review, submit when ready, and review explanations
+            after your score is calculated.
+          </p>
+          <dl class="exam-facts" aria-label="Exam details">
+            <div>
+              <dt>30</dt>
+              <dd>Questions</dd>
+            </div>
+            <div>
+              <dt>38</dt>
+              <dd>Minutes</dd>
+            </div>
+            <div>
+              <dt>Free</dt>
+              <dd>No login</dd>
+            </div>
+          </dl>
+        </div>
+
+        <form id="lead-form" class="lead-card">
+          <h2>Start the simulation</h2>
+          <p>Enter your name and email to begin. Your results appear only after you submit the exam.</p>
+          <label>
+            Name
+            <input id="name" name="name" autocomplete="name" required />
+          </label>
+          <label>
+            Email
+            <input id="email" name="email" type="email" autocomplete="email" required />
+          </label>
+          <label class="check-label">
+            <input id="consent" name="consent" type="checkbox" required />
+            <span>I agree to receive PMP Daily study resources and understand I can unsubscribe anytime.</span>
+          </label>
+          <p id="lead-error" class="form-error" role="alert"></p>
+          <button class="button primary" type="submit">Start exam</button>
+          <p class="fine-print">
+            PMP is a registered mark of Project Management Institute, Inc. PMP Daily is not affiliated with PMI.
+          </p>
+        </form>
+      </section>
+
+      <section id="exam-screen" class="exam-screen hidden" aria-live="polite">
+        <div class="exam-topbar">
+          <div>
+            <p class="eyebrow">PMP Daily simulator</p>
+            <h1>Question <span id="question-number">1</span> of <span id="question-total">30</span></h1>
+          </div>
+          <div class="timer" aria-label="Time remaining">
+            <span id="timer">45:00</span>
+            <small>remaining</small>
+          </div>
+        </div>
+
+        <div class="exam-layout">
+          <article class="question-panel">
+            <div class="question-meta">
+              <span id="question-domain"></span>
+              <button id="flag-button" class="flag-button" type="button">Flag for review</button>
+            </div>
+            <h2 id="question-text"></h2>
+            <p id="question-help" class="question-help"></p>
+            <div id="choice-list" class="choice-list"></div>
+            <div class="exam-actions">
+              <button id="prev-button" class="button secondary" type="button">Previous</button>
+              <button id="next-button" class="button secondary" type="button">Next</button>
+              <button id="submit-button" class="button primary" type="button">Submit exam</button>
+            </div>
+            <p id="submit-status" class="submit-status" role="status"></p>
+          </article>
+
+          <aside class="question-map" aria-label="Question navigator">
+            <div class="map-header">
+              <strong>Question navigator</strong>
+              <span id="answered-count">0 answered</span>
+            </div>
+            <div id="question-grid" class="question-grid"></div>
+            <div class="legend">
+              <span><i class="dot answered"></i>Answered</span>
+              <span><i class="dot flagged"></i>Flagged</span>
+              <span><i class="dot current"></i>Current</span>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="results-screen" class="results-screen hidden">
+        <div class="score-card">
+          <p class="eyebrow">Simulation complete</p>
+          <h1 id="score-headline">Your score</h1>
+          <p id="score-summary"></p>
+          <div class="score-ring" aria-label="Exam score">
+            <span id="score-percent">0%</span>
+          </div>
+          <div class="result-actions">
+            <button id="review-button" class="button primary" type="button">Review explanations</button>
+            <button id="restart-button" class="button secondary" type="button">Restart exam</button>
+          </div>
+        </div>
+        <div class="breakdown-card">
+          <h2>Domain breakdown</h2>
+          <div id="domain-breakdown" class="domain-breakdown"></div>
+        </div>
+      </section>
+
+      <section id="review-screen" class="review-screen hidden">
+        <div class="review-heading">
+          <div>
+            <p class="eyebrow">Answer review</p>
+            <h1>Review your questions and explanations.</h1>
+          </div>
+          <button id="back-results-button" class="button secondary" type="button">Back to score</button>
+        </div>
+        <div id="review-list" class="review-list"></div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

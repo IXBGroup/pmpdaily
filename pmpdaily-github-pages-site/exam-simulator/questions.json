@@ -1,0 +1,482 @@
+[
+  {
+    "id": "pmp-001",
+    "domain": "People",
+    "topic": "Conflict Management",
+    "difficulty": "Medium",
+    "type": "single",
+    "question": "Two senior team members disagree publicly about the best technical approach for a critical deliverable. The disagreement is slowing progress. What should the project manager do first?",
+    "choices": [
+      { "id": "a", "text": "Escalate the disagreement to the project sponsor for a decision." },
+      { "id": "b", "text": "Meet with both team members to understand the issue and facilitate a collaborative resolution." },
+      { "id": "c", "text": "Choose the approach recommended by the more experienced team member." },
+      { "id": "d", "text": "Update the risk register and wait for the team to resolve it." }
+    ],
+    "correctAnswers": ["b"],
+    "explanation": "The project manager should address conflict early and collaboratively. Facilitating a discussion helps the team focus on facts, project objectives, and shared ownership before escalation is considered."
+  },
+  {
+    "id": "pmp-002",
+    "domain": "Process",
+    "topic": "Change Control",
+    "difficulty": "Medium",
+    "type": "single",
+    "question": "A stakeholder requests a new feature after the project baseline has been approved. The feature appears useful but will require extra effort. What should the project manager do next?",
+    "choices": [
+      { "id": "a", "text": "Ask the team to add the feature if they can fit it into the schedule." },
+      { "id": "b", "text": "Reject the request because the baseline has already been approved." },
+      { "id": "c", "text": "Submit the request through the integrated change control process for impact analysis." },
+      { "id": "d", "text": "Approve the change because it adds stakeholder value." }
+    ],
+    "correctAnswers": ["c"],
+    "explanation": "After baselines are approved, changes should be assessed through change control. The impact on scope, schedule, cost, risk, and benefits should be understood before a decision is made."
+  },
+  {
+    "id": "pmp-003",
+    "domain": "Business Environment",
+    "topic": "Benefits Management",
+    "difficulty": "Medium",
+    "type": "single",
+    "question": "A project is on schedule and within budget, but the expected business benefit is no longer likely because market conditions changed. What should the project manager do?",
+    "choices": [
+      { "id": "a", "text": "Continue the project because the approved plan is being followed." },
+      { "id": "b", "text": "Inform the sponsor and review whether the project still supports business objectives." },
+      { "id": "c", "text": "Reduce the project scope to lower cost." },
+      { "id": "d", "text": "Update the lessons learned register at project closure." }
+    ],
+    "correctAnswers": ["b"],
+    "explanation": "Projects exist to deliver value. If expected benefits are at risk, the project manager should raise the issue with the sponsor and help reassess alignment with business objectives."
+  },
+  {
+    "id": "pmp-004",
+    "domain": "People",
+    "topic": "Servant Leadership",
+    "difficulty": "Easy",
+    "type": "single",
+    "question": "An agile team repeatedly misses sprint goals because external managers assign urgent work directly to developers. What should the project manager do first?",
+    "choices": [
+      { "id": "a", "text": "Tell the developers to refuse all work that is not in the sprint backlog." },
+      { "id": "b", "text": "Work with the external managers and product owner to protect team focus and clarify intake expectations." },
+      { "id": "c", "text": "Extend the sprint length to create more time for interruptions." },
+      { "id": "d", "text": "Replace the developers who are accepting outside work." }
+    ],
+    "correctAnswers": ["b"],
+    "explanation": "A servant leader removes impediments and protects the team. The project manager should address the source of the interruptions and clarify how work enters the team's backlog."
+  },
+  {
+    "id": "pmp-005",
+    "domain": "Process",
+    "topic": "Risk Response",
+    "difficulty": "Medium",
+    "type": "single",
+    "question": "A known schedule risk occurs, and the approved contingency plan is still appropriate. What should the project manager do?",
+    "choices": [
+      { "id": "a", "text": "Implement the approved risk response and update project documents." },
+      { "id": "b", "text": "Create a change request before taking any action." },
+      { "id": "c", "text": "Escalate immediately to the steering committee." },
+      { "id": "d", "text": "Use the management reserve without notifying anyone." }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "When a planned risk response is approved and the trigger occurs, the project manager should implement that response and keep project records current."
+  },
+  {
+    "id": "pmp-006",
+    "domain": "People",
+    "topic": "Team Development",
+    "difficulty": "Easy",
+    "type": "single",
+    "question": "A newly formed project team is unclear about roles and decision authority. Which tool or activity would help most?",
+    "choices": [
+      { "id": "a", "text": "Create or review a responsibility assignment matrix with the team." },
+      { "id": "b", "text": "Ask the sponsor to make all project decisions." },
+      { "id": "c", "text": "Wait until conflict appears before clarifying roles." },
+      { "id": "d", "text": "Reduce the number of team meetings." }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "A responsibility assignment matrix such as a RACI chart clarifies who is responsible, accountable, consulted, and informed for project work and decisions."
+  },
+  {
+    "id": "pmp-007",
+    "domain": "Process",
+    "topic": "Quality Management",
+    "difficulty": "Medium",
+    "type": "single",
+    "question": "During testing, the team finds repeated defects caused by the same design misunderstanding. What should the project manager do next?",
+    "choices": [
+      { "id": "a", "text": "Increase inspection at the end of the project." },
+      { "id": "b", "text": "Perform root cause analysis and update the quality approach to prevent recurrence." },
+      { "id": "c", "text": "Ask the customer to accept the defects as known limitations." },
+      { "id": "d", "text": "Assign blame to the developer who created the first defect." }
+    ],
+    "correctAnswers": ["b"],
+    "explanation": "Quality management emphasizes prevention and continuous improvement. Root cause analysis helps the team address the source of recurring defects instead of relying only on final inspection."
+  },
+  {
+    "id": "pmp-008",
+    "domain": "Business Environment",
+    "topic": "Compliance",
+    "difficulty": "Medium",
+    "type": "single",
+    "question": "A regulatory requirement changes midway through the project. The current solution may no longer comply. What should the project manager do first?",
+    "choices": [
+      { "id": "a", "text": "Pause all project work until the regulator gives direct approval." },
+      { "id": "b", "text": "Assess the impact of the requirement and engage appropriate stakeholders." },
+      { "id": "c", "text": "Ignore the change because the original requirements were approved." },
+      { "id": "d", "text": "Ask the team to redesign the solution immediately." }
+    ],
+    "correctAnswers": ["b"],
+    "explanation": "The project manager should understand the compliance impact and involve the right stakeholders before deciding on changes to scope, design, schedule, or budget."
+  },
+  {
+    "id": "pmp-009",
+    "domain": "People",
+    "topic": "Stakeholder Engagement",
+    "difficulty": "Easy",
+    "type": "single",
+    "question": "A key stakeholder has stopped attending review meetings and is now rejecting completed work. What should the project manager do first?",
+    "choices": [
+      { "id": "a", "text": "Meet with the stakeholder to understand concerns and reestablish engagement expectations." },
+      { "id": "b", "text": "Remove the stakeholder from the communications plan." },
+      { "id": "c", "text": "Ask the team to redo the rejected work immediately." },
+      { "id": "d", "text": "Escalate to the sponsor without speaking to the stakeholder." }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "Stakeholder engagement should be proactive. The project manager should understand the reason for disengagement and work to restore useful participation before escalating."
+  },
+  {
+    "id": "pmp-010",
+    "domain": "Process",
+    "topic": "Schedule Management",
+    "difficulty": "Medium",
+    "type": "single",
+    "question": "A critical path activity is delayed by three days. The sponsor asks whether the project finish date will move. What should the project manager review first?",
+    "choices": [
+      { "id": "a", "text": "The communications management plan." },
+      { "id": "b", "text": "The schedule network, float, and options for schedule compression." },
+      { "id": "c", "text": "The procurement strategy for future projects." },
+      { "id": "d", "text": "The team charter." }
+    ],
+    "correctAnswers": ["b"],
+    "explanation": "A delay on the critical path can affect the finish date. The project manager should analyze the schedule, available float, and possible compression options before responding."
+  },
+  {
+    "id": "pmp-011",
+    "domain": "People",
+    "topic": "Communication",
+    "difficulty": "Medium",
+    "type": "single",
+    "question": "A distributed team is missing important handoffs because updates are buried in long email threads. What should the project manager do?",
+    "choices": [
+      { "id": "a", "text": "Create a clearer communication approach with agreed channels, timing, and ownership for handoffs." },
+      { "id": "b", "text": "Require every team member to copy the sponsor on all emails." },
+      { "id": "c", "text": "Cancel remote work until the project is complete." },
+      { "id": "d", "text": "Stop documenting handoffs to reduce confusion." }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "Communication should be planned around stakeholder and team needs. Clear channels and ownership reduce missed handoffs, especially for distributed teams."
+  },
+  {
+    "id": "pmp-012",
+    "domain": "Process",
+    "topic": "Procurement",
+    "difficulty": "Hard",
+    "type": "single",
+    "question": "A vendor is delivering late, but the contract includes service levels and escalation procedures. What should the project manager do first?",
+    "choices": [
+      { "id": "a", "text": "Terminate the vendor immediately." },
+      { "id": "b", "text": "Follow the contract terms and work with procurement to address the performance issue." },
+      { "id": "c", "text": "Ask the project team to complete the vendor's work without documentation." },
+      { "id": "d", "text": "Withhold all communication until the next status meeting." }
+    ],
+    "correctAnswers": ["b"],
+    "explanation": "Vendor performance issues should be managed according to the contract and procurement procedures. This protects the project and keeps actions aligned with agreed terms."
+  },
+  {
+    "id": "pmp-013",
+    "domain": "People",
+    "topic": "Coaching",
+    "difficulty": "Medium",
+    "type": "single",
+    "question": "A team member is struggling with a new tool and is falling behind. The rest of the team has experience with it. What should the project manager do?",
+    "choices": [
+      { "id": "a", "text": "Replace the team member with someone already trained." },
+      { "id": "b", "text": "Pair the team member with an experienced teammate and support targeted learning." },
+      { "id": "c", "text": "Reduce the quality requirements for that person's work." },
+      { "id": "d", "text": "Wait until the next performance review." }
+    ],
+    "correctAnswers": ["b"],
+    "explanation": "Project managers support team performance through coaching, mentoring, and removing skill gaps. Pairing and targeted learning are constructive first steps."
+  },
+  {
+    "id": "pmp-014",
+    "domain": "Process",
+    "topic": "Scope Management",
+    "difficulty": "Medium",
+    "type": "single",
+    "question": "A customer says a delivered feature does not meet expectations, but the feature matches the documented acceptance criteria. What should the project manager do?",
+    "choices": [
+      { "id": "a", "text": "Review the acceptance criteria and the customer's concern to determine whether a change request is needed." },
+      { "id": "b", "text": "Reject the customer's concern because the documentation was followed." },
+      { "id": "c", "text": "Ask the team to rebuild the feature for free." },
+      { "id": "d", "text": "Close the project immediately." }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "The project manager should validate the work against acceptance criteria while still understanding stakeholder concerns. If expectations changed or were incomplete, a change request may be appropriate."
+  },
+  {
+    "id": "pmp-015",
+    "domain": "Business Environment",
+    "topic": "Organizational Change",
+    "difficulty": "Medium",
+    "type": "single",
+    "question": "A project introduces a new process, but affected users are resisting adoption. What should the project manager do first?",
+    "choices": [
+      { "id": "a", "text": "Work with stakeholders to understand resistance and strengthen the change management approach." },
+      { "id": "b", "text": "Ask leadership to require immediate compliance without discussion." },
+      { "id": "c", "text": "Remove training from the project plan." },
+      { "id": "d", "text": "Delay all communication until deployment." }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "Successful outcomes depend on adoption. The project manager should understand resistance, communicate value, and support change management activities such as training and engagement."
+  },
+  {
+    "id": "pmp-016",
+    "domain": "Process",
+    "topic": "Agile Planning",
+    "difficulty": "Medium",
+    "type": "single",
+    "question": "During sprint planning, the product owner asks the team to commit to more work than their recent velocity supports. What should the project manager or scrum master do?",
+    "choices": [
+      { "id": "a", "text": "Encourage the team to use historical velocity and capacity to make a realistic commitment." },
+      { "id": "b", "text": "Tell the team to accept the work because the product owner sets priorities." },
+      { "id": "c", "text": "Extend the sprint after it starts if the work is not finished." },
+      { "id": "d", "text": "Remove lower-performing team members from the sprint." }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "Agile planning should be realistic and based on team capacity and empirical data. The product owner orders the backlog, but the team determines how much work it can complete."
+  },
+  {
+    "id": "pmp-017",
+    "domain": "People",
+    "topic": "Motivation",
+    "difficulty": "Easy",
+    "type": "single",
+    "question": "The team has worked extended hours for several weeks and morale is dropping. What should the project manager do?",
+    "choices": [
+      { "id": "a", "text": "Recognize the issue, discuss workload with the team, and look for sustainable adjustments." },
+      { "id": "b", "text": "Remind the team that overtime is normal near deadlines." },
+      { "id": "c", "text": "Cancel retrospectives to give the team more work time." },
+      { "id": "d", "text": "Ignore morale unless productivity drops further." }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "Sustained overwork can harm quality and performance. The project manager should support a sustainable pace and involve the team in finding practical adjustments."
+  },
+  {
+    "id": "pmp-018",
+    "domain": "Process",
+    "topic": "Monitoring and Controlling",
+    "difficulty": "Hard",
+    "type": "single",
+    "question": "Earned value data shows CPI is 0.82 and SPI is 1.03. What does this indicate?",
+    "choices": [
+      { "id": "a", "text": "The project is under budget and behind schedule." },
+      { "id": "b", "text": "The project is over budget and slightly ahead of schedule." },
+      { "id": "c", "text": "The project is under budget and ahead of schedule." },
+      { "id": "d", "text": "The project is over budget and behind schedule." }
+    ],
+    "correctAnswers": ["b"],
+    "explanation": "A CPI below 1.0 means cost performance is worse than planned. An SPI above 1.0 means schedule performance is ahead of planned progress."
+  },
+  {
+    "id": "pmp-019",
+    "domain": "People",
+    "topic": "Emotional Intelligence",
+    "difficulty": "Medium",
+    "type": "single",
+    "question": "A stakeholder becomes angry during a status meeting and criticizes the team. What should the project manager do first?",
+    "choices": [
+      { "id": "a", "text": "Respond calmly, acknowledge the concern, and redirect the discussion toward facts and next steps." },
+      { "id": "b", "text": "End the meeting immediately and remove the stakeholder from future meetings." },
+      { "id": "c", "text": "Criticize the stakeholder for being unprofessional." },
+      { "id": "d", "text": "Agree with the stakeholder to reduce tension." }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "Emotional intelligence helps the project manager keep discussions productive. A calm response, acknowledgement, and refocus on facts supports trust and problem solving."
+  },
+  {
+    "id": "pmp-020",
+    "domain": "Process",
+    "topic": "Lessons Learned",
+    "difficulty": "Easy",
+    "type": "single",
+    "question": "The team discovers a better testing approach halfway through the project. What should the project manager do?",
+    "choices": [
+      { "id": "a", "text": "Document the lesson only at the end of the project." },
+      { "id": "b", "text": "Share and apply the lesson where appropriate, then update the lessons learned register." },
+      { "id": "c", "text": "Keep using the old approach to avoid any change." },
+      { "id": "d", "text": "Wait for the PMO to request an update." }
+    ],
+    "correctAnswers": ["b"],
+    "explanation": "Lessons learned are captured and used throughout the project, not only at closure. Applying useful learning can improve current and future performance."
+  },
+  {
+    "id": "pmp-021",
+    "domain": "Business Environment",
+    "topic": "Value Delivery",
+    "difficulty": "Medium",
+    "type": "single",
+    "question": "An executive asks the team to prioritize a feature that does not support the approved business case. What should the project manager do?",
+    "choices": [
+      { "id": "a", "text": "Add the feature because the request came from an executive." },
+      { "id": "b", "text": "Discuss alignment with business value and route any scope change through the appropriate decision process." },
+      { "id": "c", "text": "Ask the team to work overtime to include the feature." },
+      { "id": "d", "text": "Remove a different feature without stakeholder review." }
+    ],
+    "correctAnswers": ["b"],
+    "explanation": "Project choices should support business value. Even executive requests need transparent analysis and proper change or prioritization decisions."
+  },
+  {
+    "id": "pmp-022",
+    "domain": "Process",
+    "topic": "Hybrid Delivery",
+    "difficulty": "Hard",
+    "type": "single",
+    "question": "A project uses predictive planning for regulatory deliverables and agile iterations for customer-facing features. What should the project manager focus on?",
+    "choices": [
+      { "id": "a", "text": "Forcing the entire project into a single delivery approach." },
+      { "id": "b", "text": "Tailoring governance, communication, and planning to support both delivery approaches." },
+      { "id": "c", "text": "Removing regulatory milestones from the plan." },
+      { "id": "d", "text": "Using agile ceremonies only after the predictive work is complete." }
+    ],
+    "correctAnswers": ["b"],
+    "explanation": "Hybrid projects require tailoring. The project manager should integrate governance and communication so predictive and agile workstreams remain aligned."
+  },
+  {
+    "id": "pmp-023",
+    "domain": "People",
+    "topic": "Negotiation",
+    "difficulty": "Medium",
+    "type": "single",
+    "question": "Two functional managers need the same specialist during the same week. Your project has priority, but the other work is also important. What should the project manager do?",
+    "choices": [
+      { "id": "a", "text": "Collaborate with the functional managers to negotiate a workable resource plan." },
+      { "id": "b", "text": "Demand the specialist full-time because your project has priority." },
+      { "id": "c", "text": "Ask the specialist to choose which manager to support." },
+      { "id": "d", "text": "Ignore the conflict until the week begins." }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "Resource conflicts are best handled through collaboration and negotiation. Priority matters, but the project manager should seek an agreement that supports organizational needs."
+  },
+  {
+    "id": "pmp-024",
+    "domain": "Process",
+    "topic": "Requirements",
+    "difficulty": "Medium",
+    "type": "single",
+    "question": "Several users give conflicting requirements for the same workflow. What should the project manager do first?",
+    "choices": [
+      { "id": "a", "text": "Document the conflict and facilitate alignment with the right stakeholders." },
+      { "id": "b", "text": "Choose the requirement from the most senior user." },
+      { "id": "c", "text": "Ask developers to build all requested versions." },
+      { "id": "d", "text": "Remove the workflow from scope." }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "Conflicting requirements should be made visible and resolved with appropriate stakeholders. The project manager facilitates alignment rather than making arbitrary choices."
+  },
+  {
+    "id": "pmp-025",
+    "domain": "People",
+    "topic": "Virtual Teams",
+    "difficulty": "Easy",
+    "type": "single",
+    "question": "A virtual team has low trust and rarely speaks during meetings. What should the project manager do?",
+    "choices": [
+      { "id": "a", "text": "Create intentional opportunities for collaboration, working agreements, and inclusive participation." },
+      { "id": "b", "text": "Stop holding meetings and rely only on written updates." },
+      { "id": "c", "text": "Ask the sponsor to monitor every meeting." },
+      { "id": "d", "text": "Wait for the team to become comfortable over time." }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "Virtual teams need deliberate trust building, working agreements, and inclusive facilitation. The project manager should create conditions for meaningful participation."
+  },
+  {
+    "id": "pmp-026",
+    "domain": "Process",
+    "topic": "Retrospectives",
+    "difficulty": "Medium",
+    "type": "single",
+    "question": "In a retrospective, the team identifies that unclear acceptance criteria caused rework. What should happen next?",
+    "choices": [
+      { "id": "a", "text": "Agree on a specific improvement action and apply it to upcoming work." },
+      { "id": "b", "text": "Blame the product owner for the rework." },
+      { "id": "c", "text": "Stop holding retrospectives because they surface problems." },
+      { "id": "d", "text": "Only document the concern and take no action." }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "Retrospectives should lead to actionable improvements. The team should agree on a concrete change, such as improving definition of ready or acceptance criteria review."
+  },
+  {
+    "id": "pmp-027",
+    "domain": "Business Environment",
+    "topic": "External Business Changes",
+    "difficulty": "Hard",
+    "type": "single",
+    "question": "A competitor releases a product that changes customer expectations. The sponsor asks whether the project should pivot. What should the project manager do?",
+    "choices": [
+      { "id": "a", "text": "Analyze the impact on benefits, stakeholders, scope, schedule, and risks with the sponsor and key stakeholders." },
+      { "id": "b", "text": "Continue with the original plan because the project charter is approved." },
+      { "id": "c", "text": "Tell the team to redesign the product immediately." },
+      { "id": "d", "text": "Cancel the project without further analysis." }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "External changes can affect value delivery. The project manager should support an informed decision by analyzing impacts and engaging the right stakeholders."
+  },
+  {
+    "id": "pmp-028",
+    "domain": "Process",
+    "topic": "Risk Identification",
+    "difficulty": "Medium",
+    "type": "multiple",
+    "question": "Which actions are appropriate when identifying project risks early in planning? Select all that apply.",
+    "choices": [
+      { "id": "a", "text": "Review assumptions, constraints, and lessons learned from similar projects." },
+      { "id": "b", "text": "Invite input from relevant stakeholders and subject matter experts." },
+      { "id": "c", "text": "Record only high-impact threats and ignore opportunities." },
+      { "id": "d", "text": "Document risks with enough detail to support analysis and response planning." }
+    ],
+    "correctAnswers": ["a", "b", "d"],
+    "explanation": "Risk identification should use multiple sources, include stakeholder and expert input, and document both threats and opportunities clearly enough for analysis and response planning."
+  },
+  {
+    "id": "pmp-029",
+    "domain": "People",
+    "topic": "Leadership Style",
+    "difficulty": "Medium",
+    "type": "multiple",
+    "question": "Which behaviors best demonstrate servant leadership on an agile project? Select all that apply.",
+    "choices": [
+      { "id": "a", "text": "Removing impediments that block team progress." },
+      { "id": "b", "text": "Helping the team improve its way of working." },
+      { "id": "c", "text": "Assigning every task to individuals before sprint planning." },
+      { "id": "d", "text": "Shielding the team from unnecessary disruption while supporting transparency." }
+    ],
+    "correctAnswers": ["a", "b", "d"],
+    "explanation": "Servant leadership focuses on enabling the team, removing blockers, coaching improvement, and protecting focus while keeping work transparent."
+  },
+  {
+    "id": "pmp-030",
+    "domain": "Process",
+    "topic": "Stakeholder Communications",
+    "difficulty": "Medium",
+    "type": "multiple",
+    "question": "A project has many stakeholders with different information needs. Which steps help create an effective communication approach? Select all that apply.",
+    "choices": [
+      { "id": "a", "text": "Identify stakeholder information needs, preferred channels, and timing." },
+      { "id": "b", "text": "Use the same detailed weekly report for every stakeholder." },
+      { "id": "c", "text": "Define who sends each communication and how feedback will be handled." },
+      { "id": "d", "text": "Review and adjust communications as stakeholder needs change." }
+    ],
+    "correctAnswers": ["a", "c", "d"],
+    "explanation": "Effective communications are tailored to stakeholder needs, assigned to clear owners, and adjusted as the project and stakeholder expectations evolve."
+  }
+]
