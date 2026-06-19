@@ -658,6 +658,101 @@ h3 {
   font-weight: 800;
 }
 
+.article-page {
+  background: var(--white);
+}
+
+.article-hero {
+  padding: 86px clamp(20px, 5vw, 72px) 44px;
+  background:
+    linear-gradient(120deg, rgba(0, 62, 88, 0.1), rgba(19, 168, 232, 0.12)),
+    var(--paper);
+}
+
+.article-hero h1 {
+  max-width: 980px;
+  font-size: clamp(3rem, 7vw, 5.9rem);
+}
+
+.article-deck {
+  max-width: 760px;
+  color: var(--muted);
+  font-size: 1.2rem;
+}
+
+.article-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  color: var(--muted);
+  font-weight: 800;
+}
+
+.article-body {
+  max-width: 880px;
+  padding: 58px clamp(20px, 5vw, 72px) 86px;
+}
+
+.article-body h2 {
+  margin-top: 48px;
+  font-size: clamp(1.8rem, 3vw, 2.7rem);
+}
+
+.article-body h3 {
+  margin-top: 30px;
+}
+
+.article-body p,
+.article-body li {
+  color: #35444f;
+  font-size: 1.08rem;
+}
+
+.article-body a {
+  color: var(--navy);
+  font-weight: 900;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.article-body ul {
+  display: grid;
+  gap: 8px;
+  margin: 0 0 24px;
+  padding-left: 24px;
+}
+
+.article-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  padding: 68px clamp(20px, 5vw, 72px);
+  color: var(--white);
+  background: var(--navy);
+}
+
+.article-cta div {
+  max-width: 760px;
+}
+
+.article-cta .eyebrow,
+.article-cta p {
+  color: #d8f0ef;
+}
+
+.article-cta p {
+  margin-bottom: 0;
+  font-size: 1.08rem;
+}
+
+.article-cta .button.primary {
+  flex: 0 0 auto;
+  color: var(--navy);
+  background: var(--white);
+  box-shadow: none;
+}
+
 .submit-cta div {
   max-width: 760px;
 }
@@ -961,6 +1056,11 @@ h3 {
     flex-direction: column;
   }
 
+  .article-cta {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
   .blog-feature {
     grid-template-columns: 1fr;
   }
@@ -1011,7 +1111,10 @@ h3 {
 
   .blog-hero,
   .blog-feature,
-  .blog-section {
+  .blog-section,
+  .article-hero,
+  .article-body,
+  .article-cta {
     padding-top: 58px;
     padding-bottom: 58px;
   }
