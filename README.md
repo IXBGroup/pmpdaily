@@ -7,6 +7,7 @@ Static first-pass website for PMP Daily at `pmpdaily.org`.
 - `index.html` - the page content and structure
 - `answers.html` - coming-soon answer library page
 - `exam-simulator/` - free 30-question timed PMP exam simulator
+- `blog/` - PMP Daily blog landing page and future article pages
 - `submit-question.html` - member question submission page
 - `privacy.html` - privacy policy draft
 - `terms.html` - terms and trademark notice draft

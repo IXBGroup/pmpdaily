@@ -559,6 +559,105 @@ h3 {
   box-shadow: none;
 }
 
+.blog-preview-band {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  padding: 86px clamp(20px, 5vw, 72px);
+  background: #f8fbfc;
+  border-bottom: 1px solid var(--line);
+}
+
+.blog-preview-band div {
+  max-width: 820px;
+}
+
+.blog-preview-band p {
+  margin-bottom: 0;
+  color: var(--muted);
+  font-size: 1.08rem;
+}
+
+.blog-hero,
+.blog-feature,
+.blog-section {
+  padding: 86px clamp(20px, 5vw, 72px);
+}
+
+.blog-hero {
+  min-height: 560px;
+  display: grid;
+  align-items: center;
+  background:
+    linear-gradient(120deg, rgba(0, 62, 88, 0.1), rgba(19, 168, 232, 0.12)),
+    var(--paper);
+}
+
+.blog-hero-copy {
+  max-width: 850px;
+}
+
+.blog-hero p {
+  max-width: 680px;
+  color: var(--muted);
+  font-size: 1.16rem;
+}
+
+.blog-feature {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(320px, 0.55fr);
+  gap: 36px;
+  align-items: center;
+  background: var(--white);
+}
+
+.blog-feature p,
+.blog-section p {
+  color: var(--muted);
+  font-size: 1.06rem;
+}
+
+.blog-card,
+.blog-topic-grid article,
+.blog-empty-state {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.blog-card {
+  padding: 30px;
+  box-shadow: var(--shadow);
+}
+
+.blog-topic-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.blog-topic-grid article {
+  padding: 26px;
+}
+
+.blog-empty-state {
+  margin: 0 clamp(20px, 5vw, 72px) 86px;
+  padding: clamp(24px, 4vw, 42px);
+  background:
+    linear-gradient(135deg, rgba(19, 168, 232, 0.08), rgba(255, 106, 19, 0.08)),
+    var(--white);
+}
+
+.blog-empty-state div {
+  max-width: 760px;
+}
+
+.blog-empty-state code {
+  color: var(--navy);
+  font-weight: 800;
+}
+
 .submit-cta div {
   max-width: 760px;
 }
@@ -857,12 +956,22 @@ h3 {
     flex-direction: column;
   }
 
+  .blog-preview-band {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .blog-feature {
+    grid-template-columns: 1fr;
+  }
+
   .submission-intro {
     position: static;
   }
 
   .resource-grid,
   .pillar-list,
+  .blog-topic-grid,
   .stats {
     grid-template-columns: 1fr;
   }
@@ -894,9 +1003,21 @@ h3 {
   .linkedin-preview,
   .submit-cta,
   .simulator-cta,
+  .blog-preview-band,
   .question-band {
     padding-top: 58px;
     padding-bottom: 58px;
+  }
+
+  .blog-hero,
+  .blog-feature,
+  .blog-section {
+    padding-top: 58px;
+    padding-bottom: 58px;
+  }
+
+  .blog-empty-state {
+    margin-bottom: 58px;
   }
 
   .submission-page {
